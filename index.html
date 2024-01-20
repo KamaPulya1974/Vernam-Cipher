@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Шифр Вернама</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <span>Шифр Вернама</span>
+
+    <div class="content">
+      <div class="flex-column">
+        <label for="GET-input">исходное сообщение</label>
+        <input class="field" id="GET-input" type="text" name="input" />
+      </div>
+
+      <div class="flex-column">
+        <span>ключ</span>
+        <span id="keyField" class="field"></span>
+      </div>
+
+      <div class="flex-column">
+        <span>полученное сообщение</span>
+        <span id="GET-output" class="field"></span>
+      </div>
+    </div>
+
+    <div class="buttons">
+        <div id="goCrypt">зашифровать</div>
+        <div id="goDecrypt">расшифровать</div>
+    </div>
+
+    <div id="clearButton" class="clearButton">очистить все поля</div>
+
+    <!-- скрипт -->
+    <script src="script.js"></script>
+  </body>
+</html>
